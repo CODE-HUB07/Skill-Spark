@@ -1,73 +1,118 @@
-# Welcome to your Lovable project
+Project Title
 
-## Project info
+# 🚀 Skills Spark Mentor Hub  
+*Empowering Learners, Enabling Mentors – One Skill at a Time.*
 
-**URL**: https://lovable.dev/projects/ab2210e2-afac-4d78-8146-11c1d6d29d4b
+---
 
-## How can I edit this code?
+## 📌 Problem Statement  
+**Problem Statement 8 – Reimagine Peer-to-Peer Learning & Mentorship**
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🎯 Objective  
+In today’s fast-paced digital world, learners often struggle to find personalized guidance that adapts to their specific goals and learning styles. **SkillsSpark Mentor Hub** solves this by offering a platform where users can directly connect with experienced mentors based on their skill preferences, availability, and growth plans.  
+It serves students, self-learners, career switchers, and working professionals who are seeking structured, one-on-one mentorship to elevate their skills and careers.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ab2210e2-afac-4d78-8146-11c1d6d29d4b) and start prompting.
+The platform enables goal-based mentorship matching, real-time learning tracking, and an accessible environment for both mentors and mentees, bridging the gap between skill acquisition and expert guidance.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🧠 Team & Approach  
+**Team Name:** The_Hackoholics 🚀  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**Team Members:**  
+- Siddhant Sharma (Frontend Developer / Project Lead)  
+- Varun Sharma  
+- Bhavesh Sahu
+- Aryan Yadav
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Your Approach:**  
+- Chose this problem because we personally experienced the lack of mentorship in technical learning journeys.  
+- Aimed to build a clean, interactive solution where mentorship is not just accessible but also scalable.  
+- Faced major deployment issues (initially with Netlify), challenges in authentication system, and mentor filtering logic.  
+- Overcame hurdles with UI responsiveness, routing, and local API simulations before moving to deployment.  
+- Breakthroughs included designing a reusable mentor card component, dynamic filtering, and integrating mentor-hiring logic without a backend using mock data.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🛠️ Tech Stack  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+**Core Technologies Used:**  
+- **Frontend:** HTML, CSS, JavaScript, React.js  
+- **Backend:** (Simulated) - Currently using mock APIs with `JSON Server`  
+- **Database:** IndexedDB (Offline storage)  
+- **APIs:** Simulated APIs with custom JSON endpoints  
+- **Hosting:** Netlify  
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## ✨ Key Features  
+
+✅ Mentor discovery by skillset, experience, and rating  
+✅ Direct mentor hiring with availability filter  
+✅ Skill-based categorization for faster access  
+✅ Modern, responsive UI with interactive cards and search  
+✅ Offline data caching for low-bandwidth accessibility  
+✅ Scalable design with future backend integration in mind  
+
+---
+
+## 📽️ Demo & Deliverables  
+- **Demo Video Link:**  https://youtu.be/25eDpbluvZE
+
+---
+
+## ✅ Tasks & Bonus Checklist  
+
+- ✅ All members of the team completed the mandatory task  
+- ✅ Bonus Task 2 - Signed up for Sprint.dev and filled the form  
+
+---
+
+## 🧪 How to Run the Project  
+
+**Requirements:**  
+- Node.js  
+- Netlify CLI (for local Netlify emulation)  
+- VS Code  
+
+**Local Setup:**  
+
+
+**🧬 Future Scope**
+📈 Add full backend with Node.js + MongoDB
+🧠 AI-based mentor suggestions using real-time learning data
+📅 Integrate calendar-based booking system
+🧑‍🏫 Mentor onboarding dashboard with verification system
+🌐 Multi-language support for broader accessibility
+
+**📎 Resources / Credits**
+React.js Documentation
+
+Netlify Docs (Routing & Deployment)
+
+Icons from Font Awesome & HeroIcons
+
+Dummy data from Mockaroo
+
+**🏁 Final Words**
+Creating SkillsSpark Mentor Hub has been a rollercoaster of ideas, code, and coffee ☕. From initial brainstorming to overcoming deployment errors, every step taught us something new. We’re proud of what we built and excited about the possibilities it can unlock in the ed-tech space.
+
+Big shout-out to our mentors, the Hackazards’25 team, and of course — each other 🙌
+
+Let’s spark skills, together! 🚀🔥
+
+```bash
+# Clone the repo
+git clone https://github.com/siddhant-dev/skillspark-mentor-hub.git
+
+# Navigate into project
+cd skillspark-mentor-hub
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ab2210e2-afac-4d78-8146-11c1d6d29d4b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
